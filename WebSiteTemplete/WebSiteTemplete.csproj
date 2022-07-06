@@ -311,6 +311,10 @@
     <Compile Include="Migrations\202207031329236_InitalConfig.designer.cs">
       <DependentUpon>202207031329236_InitalConfig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202207060828555_MediaAndTextTypes.cs" />
+    <Compile Include="Migrations\202207060828555_MediaAndTextTypes.Designer.cs">
+      <DependentUpon>202207060828555_MediaAndTextTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -318,6 +322,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MediaType.cs" />
     <Compile Include="Models\RoleViewModels.cs" />
+    <Compile Include="Models\TextTypes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Resource.ar.Designer.cs" />
     <Compile Include="Resources\Resource.ar1.Designer.cs" />
@@ -468,6 +473,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202207031329236_InitalConfig.resx">
       <DependentUpon>202207031329236_InitalConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202207060828555_MediaAndTextTypes.resx">
+      <DependentUpon>202207060828555_MediaAndTextTypes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Resource.ar.resx" />
     <EmbeddedResource Include="Resources\Resource.resx" />
