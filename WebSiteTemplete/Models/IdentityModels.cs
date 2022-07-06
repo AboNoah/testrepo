@@ -31,5 +31,6 @@ namespace WebSiteTemplete.Models
         {
             return new ApplicationDbContext();
         }
+
     }
 }
