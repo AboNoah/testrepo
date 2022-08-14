@@ -21,7 +21,7 @@ namespace WebSiteTemplete
         {
             var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(db));
             var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(db));
-            IdentityRole role = new IdentityRole();
+           IdentityRole role = new IdentityRole();
             if (!roleManager.RoleExists("admin"))
             {
                 role.Name = "admin";

@@ -1,8 +1,9 @@
 *{
 	text-decoration: unset!important;
 }
-body{
+body {
 	overflow-x: hidden;
+	font-family: Droid Arabic Kufi ,;
 }
 html {
 	--main-color: #00ADB5;

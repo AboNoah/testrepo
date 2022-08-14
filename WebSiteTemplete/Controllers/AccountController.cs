@@ -497,11 +497,11 @@ namespace WebSiteTemplete.Controllers
             //Session["UserType"] = a1;
             //string a2 = Session["UserType"].ToString();
 
-            if (a1 == "Tailor")
-            {
-                return RedirectToAction("Main", "Home");
+            //if (a1 == "Tailor")
+            //{
+            //    return RedirectToAction("Main", "Home");
 
-            }
+            //}
             //else if (a1 == "Manager")
             //{
             //    return RedirectToAction("GetOrderDetailsbyManger", "Home");
@@ -522,7 +522,7 @@ namespace WebSiteTemplete.Controllers
             //    return RedirectToAction("login", "Account");
 
             //}
-           return RedirectToAction("Main", "Home");
+           return RedirectToAction("MainSetting", "Home");
 
         }
         private ActionResult RedirectToLocal(string returnUrl)
