@@ -30,19 +30,11 @@ namespace WebSiteTemplete.Controllers
         }
         public ActionResult Main()
         {
-
-            ViewBag.TitleID = new SelectList(db.Titles, "ID", "TitleName", "TextTypeID");
-            ViewBag.ParaGrapheID = new SelectList(db.ParaGraphes, "ID", "ParaGrapheName", "TextTypeID");
-
-
-            return View(ViewBag);
+            return View();
         }
         public ActionResult MainSetting()
         {
-            ViewBag.TitleID = new SelectList(db.Titles, "ID", "TitleName","TextTypeID");
-            ViewBag.ParaGrapheID = new SelectList(db.ParaGraphes, "ID", "ParaGrapheName","TextTypeID");
-
-            return View(ViewBag);
+            return View();
         }
         public ActionResult WarningPage()
         {
